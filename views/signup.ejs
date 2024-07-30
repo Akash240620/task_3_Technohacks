@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="form_conatiner">
+        <h2>SignUp Now</h2>
+        <img src="https://cdn3.iconfinder.com/data/icons/login-36/36/user_enter_interface_essentials_login_green_f-512.png" alt="Login Logo" height="100px" width="100px">
+        <form action="/signup" method="post">
+            <div class="form-group">
+                <label for="name">Username:</label>
+                <input type="text" id="name" name="username" placeholder="Enter your Username" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your Password">
+            </div>
+            <button type="submit" class="submit-btn">SignUp</button>
+        </form>
+        <p>Alraedy have an account? <a href="/signup">Login</a></p>
+    </div>
+</div>
+    
+</body>
+</html>
